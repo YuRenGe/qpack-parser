@@ -1,5 +1,5 @@
 # qpack-parser
-This tool can be used to parse http3 headers compressed with qpack.
+QPACK-Parser is a tool that can be used to parse HTTP/3 headers compressed with QPACK.
 
 # How to using it
 1. build
@@ -24,4 +24,4 @@ accept-encoding: gzip
 user-agent: quic-go HTTP/3
 ```
 # How to get hex data?
-When you use a packet capture tools such as Wireshark, find the header packet in the HTTP3 packet, copy the data segment in the packet, and use it directly.
+When using packet capture tools like Wireshark, you can locate the header packet within the HTTP/3 packet, copy the Frame Payload from the HTTP/3 headers, and directly utilize it.
